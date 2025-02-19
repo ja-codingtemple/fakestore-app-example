@@ -1,0 +1,22 @@
+#root {
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.custom-button {
+    text-decoration: none;
+    background-color: rgb(18, 136, 38);
+    color: white;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    padding: 6px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 40px !important;
+}
+
