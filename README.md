@@ -1,8 +1,16 @@
-# React + Vite
+# React Fake Store Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository hosts the starter-code written during the live-demo covering the Fake Store application for the React module.
+Feel free to clone or download this repository and use it as starter code for building your project.
 
-Currently, two official plugins are available:
+NOTE: You still need to add two more pages / components:
+- A page to update/edit products. (This should make an HTTP PUT request to update a product with the Fake Store API)
+- A page to delete products. (This should make an HTTP DELETE request to delete a product with the Fake Store API)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can make your HTTP requests via either Axios or Fetch.
+The 'AddProduct' component in the /components folder of this repository has an example of how to make an HTTP POST request with Axios.
+The 'ProductList' component in the /components folder of this repository has an example of how to make an HTTP GET request with Axios.
+
+The Fake Store API documentation has examples of how to make relevant HTTP requests with Fetch:
+https://fakestoreapi.com/docs
+
